@@ -18,6 +18,10 @@
 @import "blocks/page";
 @import "blocks/reset-normalize";
 
+html {
+  scrollbar-gutter: stable;
+}
+
 .main {
   background-color: #1d1d1d;
   padding: 120px 0 182px;
